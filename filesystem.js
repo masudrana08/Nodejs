@@ -29,7 +29,7 @@ const filePath = path.join(process.cwd(), "temp", "hello.txt");
 process.stdin.on("data", (data) => {
   fs.readFile(filePath, "utf-8", (err, prevContent) => {
     if (err) throw err;
-    updateFile(filePath, prevContent, data);
+    updateFile(filePath, prevContent, data)
   });
 });
 
