@@ -1,0 +1,24 @@
+{
+  "name": "nodejsproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "asyncgenerator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masudrana08/Nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masudrana08/Nodejs/issues"
+  },
+  "homepage": "https://github.com/masudrana08/Nodejs#readme",
+  "dependencies": {
+    "express-fileupload": "^1.4.0",
+    "formidable": "^2.0.1"
+  }
+}
